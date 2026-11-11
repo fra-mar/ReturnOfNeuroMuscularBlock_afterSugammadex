@@ -35,4 +35,4 @@ This are the steps to reproduce the code. Do it first. Then change the scenarios
    -will save a bunch of generated simulation data in the respective scenario subfolder.<br>
 <br>Then will run the scripts *tofAnalyzer.R* to assess for RNB events, among other calculations, *summarizer.R* for summaries, and *plotter.R* for figures depicting concentrations at the central, peripheral and effect site compartments besides TOF ratio. Will plot all RNB events and max 200 no RNB events. 200 was chosen to allow for visualization. Otherwise the plot is a mess.<br>
 
-Then switch to the *statAnalysis* folder <br>
+The folder *RxODE* contains simulation code in R based on the package *RxODE*. I made available this code in case you want to check equivalent results between my Python3 code, mostly based on scipy function odeint, and a fairly broadly used proper PKPD simulation package.
